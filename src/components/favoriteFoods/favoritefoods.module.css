@@ -1,0 +1,113 @@
+.container {
+    height: calc(100vh - 60px);
+    width: 100%;
+    padding: 5rem;
+}
+
+.wrapper {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles>h5 {
+    font-size: 24px;
+    color: #bc8738;
+    color: #d79734;
+    letter-spacing: 1px;
+}
+
+.titles>h2 {
+    font-size: 32px;
+    color: #bc8738;
+    letter-spacing: 1px;
+}
+
+.recipes {
+    margin-top: 0rem;
+    position: relative;
+    display: flex;
+    width: 750px;
+    height: 550px;
+    overflow: hidden;
+    
+}
+
+.recipes>.recipe {
+    width: 750px;
+    height: 550px;
+}
+
+.recipes>.recipe>img {
+    width: 750px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.recipes>.recipe>h3 {
+    position: absolute;
+    z-index: 1;
+    padding: 0.25rem;
+    background-color: #d79734;
+    color: #fff;
+    border-radius: 6px;
+    bottom: 1.25rem;
+    left: 0.5rem;
+}
+
+.leftArrow,
+.rightArrow {
+    position: absolute;
+    z-index: 3;
+}
+
+.leftArrow {
+    top:10rem;
+    left: 0rem;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+border-radius: 50%;
+
+}
+
+.rightArrow {
+        top:10rem;
+        border-radius: 50%;
+    right: 0rem;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.dots{
+    margin-top: -3rem;
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    position: relative;
+    z-index: 6;
+    cursor: pointer;
+}
+
+.dots > .dot{
+    height: 12px;
+    width: 12px;
+    background-color: #211b1b89;
+    border-radius: 50%;
+}
+
+.dots > .dot.activeDot{
+    background-color: #d79734;
+}

@@ -1,0 +1,91 @@
+.container {
+  height: 60px;
+  width: 100%;
+    color: white;
+
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: #a85400;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.center {
+  font-size: #444;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  background-color: #efefef;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+.right>input {
+  outline: none;
+  border: none;
+  background-color: #efefef;
+  padding: 0 0.25rem;
+  transition: 150ms all;
+}
+
+.right>input:hover {
+  padding-left: .5rem;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.darkBg {
+  background-color: #aa7203; /* Change to your desired darker color */
+}
+
+.fancyFont {
+  font-family: 'YourFancyFont', cursive; /* Replace 'YourFancyFont' with the actual font name */
+  /* Add any other font styles you desire */
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+.link{
+  color: white;
+  cursor: pointer;
+   text-decoration: none;
+
+}
